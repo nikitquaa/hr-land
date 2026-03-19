@@ -1,0 +1,31 @@
+.js-store-prod-text a {
+    display: inline-block;
+    padding: 13px 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.js-store-prod-text a:first-of-type {
+    background-color: #ff5c00;
+    color: #ffffff !important;
+    transition: background-color 0.2s ease-in-out;
+}
+.js-store-prod-text a:last-of-type {
+    background-color: #ffffff;
+    color: #1f1f28 !important;
+    border: 1px solid #1f1f28;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.js-store-prod-text a:first-of-type:hover {
+    background-color: #F05700;
+}
+.js-store-prod-text a:last-of-type:hover {
+    background-color: #ffffff;
+    color: #ff5c00 !important;
+    border: 1px solid #ff5c00;
+}
+.t706__cartwin_showed {
+    z-index: 999999999;
+}
